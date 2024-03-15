@@ -1,0 +1,26 @@
+[
+  {
+    "ContainingType": "pagar_me_challenge.Application.TransactionEntity.Api.TransactionApi\u002B\u003C\u003Ec",
+    "Method": "\u003CTransactionApiContext\u003Eb__0_0",
+    "RelativePath": "api/v1/Transaction",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "pagar_me_challenge.Application.TransactionEntity.Dto.TransactionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[pagar_me_challenge.Application.TransactionEntity.Dto.TransactionResponseDto, pagar-me-challenge, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
