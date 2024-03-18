@@ -35,5 +35,9 @@ namespace pagar_me_challenge.Application.TransactionEntity.Adapter
                 yield return ToDto(entities[i]);
             }
         }
+        public static TransactionStatsResponseDto ToDto(decimal availableFunds, decimal waitingFunds)
+        {
+            return new TransactionStatsResponseDto(availableFunds.ToString("N2"), waitingFunds.ToString("N2"));
+        }
     }
 }

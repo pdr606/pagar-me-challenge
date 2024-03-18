@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pagar-me-challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3836a6ab359d93b5921be46d975f6e71826dc3d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("pagar-me-challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pagar-me-challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

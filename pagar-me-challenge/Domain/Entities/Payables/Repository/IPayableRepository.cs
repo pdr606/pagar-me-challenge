@@ -1,4 +1,5 @@
-﻿using pagar_me_challenge.Domains.Base.Repository;
+﻿using pagar_me_challenge.Domain.Entities.Payables.ValueObjects;
+using pagar_me_challenge.Domains.Base.Repository;
 
 namespace pagar_me_challenge.Domain.Entities.PayablesEntity.Repository
 {

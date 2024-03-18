@@ -13,6 +13,11 @@ namespace pagar_me_challenge.Application.TransactionEntity.Api
             {
                 return await transactionApplicationService.Add(dto);
             });
+
+            app.MapGet("/api/v1/Transaction", async (ITransactionApplicationService transactionApplicationService) =>
+            {
+                return await transactionApplicationService.Stats();
+            });
         }
     }
 }
